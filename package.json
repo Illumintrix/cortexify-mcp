@@ -1,0 +1,13 @@
+{
+  "name": "cortexify-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Cortexify - your AI knowledge library (cortexify.in)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "cortexify-mcp": "src/index.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.23.8"
+  }
+}
